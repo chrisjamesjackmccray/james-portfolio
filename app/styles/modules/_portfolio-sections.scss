@@ -1,0 +1,57 @@
+.restaurant-rater {
+  width: 90%;
+  height: 90vh;
+  border: solid white 1px;
+  margin: 0 auto;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+}
+
+@media screen and (min-width: 820px) {
+  .restaurant-rater {
+    height: 47vh;
+  }
+}
+
+.restaurant-des {
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  font-size: 30px;
+}
+
+
+
+.holder {
+  width: 300px;
+  height: 20vh;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 820px) {
+  .holder {
+    width: 975px;
+    height: none;
+    margin: 0 auto;
+  }
+}
+
+.right-box {
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 45vh;
+  margin-bottom: 30px;
+  // float: right;
+  // border-left: solid white 1px;
+  // background-color: gray;
+}
+
+@media screen and (min-width: 820px) {
+  .right-box {
+    width: calc(100% - 20px);
+    padding: 10px;
+    float: right;
+    border-left: solid white 1px;
+    width: 50%;
+    height: 40vh;
+    background-color: none;
+  }
+}

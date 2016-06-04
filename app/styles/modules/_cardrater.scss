@@ -1,33 +1,53 @@
 img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .front-text {
   margin: 0;
   padding: 0;
   text-shadow: black 2px 2px 2px;
-  line-height: 200px;
+  line-height: 260px;
   transition: all 0.6s ease;
+  color: white;
 }
 
 .back-text {
   margin: 0;
   margin-top: 0;
-  font-size: 20px;
+  font-size: 30px;
   padding: 0;
   text-shadow: black 2px 2px 2px;
   margin-bottom: 0;
+  color: white;
+}
+
+.trans {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  z-index: 90;
+  transition: all 0.6s ease;
+  // background-color: rgba(2, 5, 0, .5);
+  border: solid white 1px;
+
+}
+
+.trans:hover {
+  width: 10px;
+  height: 10px;
+  transition: all 0.6s ease;
+  background-color: white;
 }
 
 .card {
   position: relative;
   color: white;
   text-align: center;
-  // line-height: 200px;
-  margin: 20px;
-  height: 200px;
-  width: 200px;
+  margin-left: 20px;
+  height: 250px;
+  width: 250px;
   transition: all 0.6s ease;
   transform-style: preserve-3d;
   transform: perspective(700px);
@@ -35,7 +55,9 @@ img {
 }
 
 .card:hover {
+
   .front-text {
+    background-color: none;
     transition: all 0.5s ease;
     font-size: 10px;
     color: black;
@@ -48,8 +70,8 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   backface-visibility: hidden;
   border-radius: 50%;
   transition: all 0.5s ease;
@@ -66,13 +88,13 @@ img {
   padding: 0;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   backface-visibility: hidden;
   transition: all 0.5s ease;
   background-size: contain;
   background-position: 37% 22%;
-  box-shadow: black 3px 3px 3px;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   background-repeat: no-repeat;
 }
 
@@ -82,5 +104,5 @@ img {
 
 .card:hover {
   transform: perspective(700px) rotateY(180deg);
-  margin-top: 4%;
+  margin-top: 3.5%;
 }
