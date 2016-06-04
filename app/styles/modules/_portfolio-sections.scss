@@ -1,14 +1,16 @@
 .restaurant-rater {
   width: 90%;
-  height: 90vh;
+  height: 93vh;
   border: solid white 1px;
   margin: 0 auto;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  margin-bottom: 4%;
 }
 
 @media screen and (min-width: 820px) {
   .restaurant-rater {
     height: 47vh;
+    margin-bottom: 1.2%;
   }
 }
 

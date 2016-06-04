@@ -1,7 +1,6 @@
 .section-one {
   height: 100vh;
   background-image: url("../assets/images/re.jpg");
-  background-size: cover;
   background-attachment: fixed; }
 
 .sub-one {
@@ -9,11 +8,15 @@
   background-color: #444444; }
 
 .section-two {
-  height: 100vh;
+  height: 3208px;
   margin-top: 0;
   background-image: url("http://i.imgur.com/8LuHEif.jpg");
   background-size: cover;
   background-attachment: fixed; }
+
+@media screen and (min-width: 820px) {
+  .section-two {
+    height: 1645px; } }
 
 .footer {
   height: 40vh;
@@ -58,9 +61,48 @@ img {
   width: 290px;
   height: 290px;
   border-radius: 50%;
-  z-index: 90;
   transition: all 0.6s ease;
   border: solid white 1px; }
+
+@media screen and (min-width: 820px) {
+  .trans {
+    margin-left: 3.5%; } }
+
+@media screen and (min-width: 870px) {
+  .trans {
+    margin-left: 4.5%; } }
+
+@media screen and (min-width: 920px) {
+  .trans {
+    margin-left: 5.5%; } }
+
+@media screen and (min-width: 970px) {
+  .trans {
+    margin-left: 6.5%; } }
+
+@media screen and (min-width: 1070px) {
+  .trans {
+    margin-left: 7.5%; } }
+
+@media screen and (min-width: 1120px) {
+  .trans {
+    margin-left: 5.5%; } }
+
+@media screen and (min-width: 1170px) {
+  .trans {
+    margin-left: 5.5%; } }
+
+@media screen and (min-width: 1220px) {
+  .trans {
+    margin-left: 3.5%; } }
+
+@media screen and (min-width: 1270px) {
+  .trans {
+    margin-left: 1.5%; } }
+
+@media screen and (min-width: 1400px) {
+  .trans {
+    margin-left: 0; } }
 
 .trans:hover {
   width: 10px;
@@ -125,14 +167,16 @@ img {
 
 .restaurant-rater {
   width: 90%;
-  height: 90vh;
+  height: 93vh;
   border: solid white 1px;
   margin: 0 auto;
-  box-shadow: 1px 3px 44px 0px black; }
+  box-shadow: 1px 3px 44px 0px black;
+  margin-bottom: 4%; }
 
 @media screen and (min-width: 820px) {
   .restaurant-rater {
-    height: 47vh; } }
+    height: 47vh;
+    margin-bottom: 1.2%; } }
 
 .restaurant-des {
   color: white;

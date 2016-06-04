@@ -2,7 +2,7 @@
 .section-one {
   height: 100vh;
   background-image: url('../assets/images/re.jpg');
-  background-size: cover;
+  // background-size: cover;
   background-attachment: fixed;
 }
 
@@ -12,11 +12,17 @@
 }
 
 .section-two {
-  height: 100vh;
+  height: 3208px;
   margin-top: 0;
   background-image: url('http://i.imgur.com/8LuHEif.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media screen and (min-width: 820px) {
+  .section-two {
+      height: 1645px;
+  }
 }
 
 .footer {
