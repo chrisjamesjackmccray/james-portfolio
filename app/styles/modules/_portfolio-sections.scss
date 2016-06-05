@@ -6,7 +6,6 @@
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   margin-bottom: 4%;
 }
-
 @media screen and (min-width: 820px) {
   .restaurant-rater {
     height: 47vh;
@@ -18,7 +17,30 @@
   color: white;
   text-shadow: black 2px 2px 2px;
   font-size: 30px;
+  transition: all 0.6s ease;
 }
+
+@media screen and (min-width: 500px) {
+  .restaurant-des {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .restaurant-des {
+    font-size: 38px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .restaurant-des {
+    font-size: 30px;
+  }
+}
+
+
+
+
 
 
 
