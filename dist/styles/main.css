@@ -29,10 +29,9 @@ body {
 
 .nav {
   width: 100%;
-  height: 80px;
+  height: 120px;
   background-color: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  z-index: 99; }
+  position: absolute; }
 
 .restaurant-image {
   width: 250px;
@@ -46,6 +45,21 @@ body {
   color: black;
   font-weight: bolder; }
 
+.eye {
+  width: 200px;
+  height: 200px;
+  margin-top: 37px;
+  padding: 0;
+  line-height: 300px;
+  transition: all 0.6s ease;
+  color: black;
+  font-weight: bolder; }
+
+.eye:hover {
+  width: 5px;
+  height: 5px;
+  margin-top: 300px; }
+
 .back-text {
   margin: 0;
   margin-top: 0;
@@ -53,6 +67,7 @@ body {
   padding: 0;
   text-shadow: black 2px 2px 2px;
   margin-bottom: 0;
+  transition: all 1s ease;
   color: white; }
 
 .trans {
@@ -207,7 +222,7 @@ body {
 
 @media screen and (min-width: 880px) {
   .restaurant-des {
-    font-size: 28px; } }
+    font-size: 26px; } }
 
 @media screen and (min-width: 1127px) {
   .restaurant-des {
@@ -216,7 +231,8 @@ body {
 .holder {
   width: 300px;
   height: 20vh;
-  margin: 0 auto; }
+  margin: 0 auto;
+  transition: all 0.5s ease; }
 
 @media screen and (min-width: 820px) {
   .holder {
@@ -232,7 +248,8 @@ body {
   margin-right: 17px;
   padding-left: 17px;
   box-shadow: 1px 3px 44px 0px black;
-  background-color: rgba(0, 0, 0, 0.9); }
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: all 0.5s ease; }
 
 @media screen and (min-width: 820px) {
   .right-box {
@@ -266,6 +283,39 @@ input:hover {
   color: #191919;
   transition: all 0.5s ease; }
 
+.link-text {
+  color: white;
+  margin-top: -45px;
+  margin-left: 1px; }
+
+#resume {
+  position: relative;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.8s ease;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-right: 69px; }
+
+#resume:hover {
+  transform: rotate(360deg);
+  transition: all 0.8s ease;
+  border-color: transparent silver; }
+
+#resume:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #444444; }
+
 .tower-image {
   width: 250px;
   height: 250px; }
@@ -298,27 +348,27 @@ input:hover {
 
 @media screen and (min-width: 820px) {
   .trans {
-    margin-left: 3.5%;
+    margin-left: 2.5%;
     margin-top: 20px; } }
 
 @media screen and (min-width: 870px) {
   .trans {
-    margin-left: 4.5%;
+    margin-left: 4%;
     margin-top: 20px; } }
 
 @media screen and (min-width: 920px) {
   .trans {
-    margin-left: 5.5%;
+    margin-left: 5%;
     margin-top: 20px; } }
 
 @media screen and (min-width: 970px) {
   .trans {
-    margin-left: 6.5%;
+    margin-left: 6%;
     margin-top: 20px; } }
 
 @media screen and (min-width: 1070px) {
   .trans {
-    margin-left: 7.5%;
+    margin-left: 7%;
     margin-top: 20px; } }
 
 @media screen and (min-width: 1120px) {
@@ -326,9 +376,14 @@ input:hover {
     margin-left: 5.5%;
     margin-top: 20px; } }
 
+@media screen and (min-width: 1140px) {
+  .trans {
+    margin-left: 6%;
+    margin-top: 20px; } }
+
 @media screen and (min-width: 1170px) {
   .trans {
-    margin-left: 5.5%;
+    margin-left: 4.5%;
     margin-top: 20px; } }
 
 @media screen and (min-width: 1220px) {

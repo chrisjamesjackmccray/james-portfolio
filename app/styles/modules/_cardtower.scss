@@ -22,6 +22,46 @@ input:hover {
   transition: all 0.5s ease;
 }
 
+.link-text {
+  color: white;
+  margin-top: -45px;
+  margin-left: 1px;
+}
+
+#resume {
+  position: relative;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.8s ease;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-right: 69px;
+
+}
+
+#resume:hover {
+  transform: rotate(360deg);
+  transition: all 0.8s ease;
+  border-color: transparent silver;
+}
+
+#resume:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #444444;
+}
+
+
+
 .tower-image {
   width: 250px;
   height: 250px;
@@ -58,28 +98,28 @@ input:hover {
 
 @media screen and (min-width: 820px) {
   .trans {
-    margin-left: 3.5%;
+    margin-left: 2.5%;
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 870px) {
   .trans {
-    margin-left: 4.5%;
+    margin-left: 4%;
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 920px) {
   .trans {
-    margin-left: 5.5%;
+    margin-left: 5%;
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 970px) {
   .trans {
-    margin-left: 6.5%;
+    margin-left: 6%;
     margin-top: 20px;
   }
 }
@@ -87,7 +127,7 @@ input:hover {
 
 @media screen and (min-width: 1070px) {
   .trans {
-    margin-left: 7.5%;
+    margin-left: 7%;
     margin-top: 20px;
   }
 }
@@ -99,9 +139,16 @@ input:hover {
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .trans {
+    margin-left: 6%;
+    margin-top: 20px;
+  }
+}
+
 @media screen and (min-width: 1170px) {
   .trans {
-    margin-left: 5.5%;
+    margin-left: 4.5%;
     margin-top: 20px;
   }
 }

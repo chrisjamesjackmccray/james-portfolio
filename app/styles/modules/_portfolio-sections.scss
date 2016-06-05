@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 880px) {
   .restaurant-des {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
@@ -61,6 +61,7 @@
   width: 300px;
   height: 20vh;
   margin: 0 auto;
+  transition: all 0.5s ease;
 }
 
 @media screen and (min-width: 820px) {
@@ -80,6 +81,7 @@
   padding-left: 17px;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   background-color: rgba(0, 0, 0, .9);
+  transition: all 0.5s ease;
 }
 
 @media screen and (min-width: 820px) {
