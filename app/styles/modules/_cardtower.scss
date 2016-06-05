@@ -1,9 +1,33 @@
+input {
+  width: 140px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #444444;
+  border: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input:hover {
+  width: 145px;
+  letter-spacing: .5px;
+  font-weight: bolder;
+  font-size: 23px;
+  background-color: white;
+  color: #191919;
+  transition: all 0.5s ease;
+}
+
 .tower-image {
   width: 250px;
   height: 250px;
 }
 
-.front-text {
+.tower-front-text {
   margin: 0;
   padding: 0;
   text-shadow: black 2px 2px 2px;
@@ -12,7 +36,7 @@
   color: white;
 }
 
-.back-text {
+.tower-back-text {
   margin: 0;
   margin-top: 0;
   font-size: 30px;
@@ -137,7 +161,7 @@
   }
 }
 
-.front  {
+.tower-front  {
   // background-color: gray;
   position: absolute;
   top: 0;
@@ -147,14 +171,14 @@
   backface-visibility: hidden;
   border-radius: 50%;
   transition: all 0.5s ease;
-  background-image: url('../assets/images/Fast-Food.png');
+  background-image: url('../assets/images/tower.png');
   background-size: cover;
   background-position: 37% 22%;
 }
 
 .back {
   // background-color: darkgray;
-  background-image: url('../assets/images/Fast-Food.png');
+  // background-image: url('../assets/images/Fast-Food.png');
   position: absolute;
   margin: 0;
   padding: 0;

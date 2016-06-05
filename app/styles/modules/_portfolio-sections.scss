@@ -16,23 +16,36 @@
 .restaurant-des {
   color: white;
   text-shadow: black 2px 2px 2px;
-  font-size: 30px;
+  font-size: 27px;
   transition: all 0.6s ease;
 }
 
 @media screen and (min-width: 500px) {
   .restaurant-des {
-    font-size: 35px;
+    font-size: 29px;
   }
 }
 
 @media screen and (min-width: 650px) {
   .restaurant-des {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
 
 @media screen and (min-width: 820px) {
+  .restaurant-des {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .restaurant-des {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (min-width: 1127px) {
   .restaurant-des {
     font-size: 30px;
   }
@@ -59,13 +72,14 @@
 }
 
 .right-box {
-  width: calc(100% - 20px);
+  width: calc(100% - 27px);
   padding: 10px;
   height: 45vh;
   margin-bottom: 30px;
-  // float: right;
-  // border-left: solid white 1px;
-  // background-color: gray;
+  margin-right: 17px;
+  padding-left: 17px;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, .9);
 }
 
 @media screen and (min-width: 820px) {

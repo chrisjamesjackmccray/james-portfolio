@@ -6,10 +6,11 @@
 .front-text {
   margin: 0;
   padding: 0;
-  text-shadow: black 2px 2px 2px;
+  // text-shadow: black 2px 2px 2px;
   line-height: 260px;
   transition: all 0.6s ease;
-  color: white;
+  color: black;
+  font-weight: bolder;
 }
 
 .back-text {
@@ -35,24 +36,28 @@
 @media screen and (min-width: 820px) {
   .trans {
     margin-left: 3.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 870px) {
   .trans {
     margin-left: 4.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 920px) {
   .trans {
     margin-left: 5.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 970px) {
   .trans {
     margin-left: 6.5%;
+    margin-top: 20px;
   }
 }
 
@@ -60,36 +65,42 @@
 @media screen and (min-width: 1070px) {
   .trans {
     margin-left: 7.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 1120px) {
   .trans {
     margin-left: 5.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 1170px) {
   .trans {
     margin-left: 5.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 1220px) {
   .trans {
     margin-left: 3.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 1270px) {
   .trans {
     margin-left: 1.5%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .trans {
     margin-left: 0;
+    margin-top: 20px;
   }
 }
 
