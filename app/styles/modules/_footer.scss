@@ -1,0 +1,47 @@
+.footer {
+  padding-top: 2.5%;
+  padding-bottom: 3%;
+  height: 40vh;
+  background-color: #191919;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  // background-color: rgba(0, 0, 0, .5);
+}
+
+.footer-holder {
+  width: 90%;
+  height: calc(100% - 36px);
+  margin: 0 auto;
+  // background-color: gray;
+}
+
+#footer-left-box {
+  width: 150px;
+  height: calc(50% - 36px);
+  // background-color: red;
+  float: left;
+}
+
+#resume-footer {
+  position: absolute;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-top: 280px;
+  margin-right: 6.7%;
+}
+
+#my-face-footer {
+  width: 149px;
+  margin-top: 0px;
+  height: 147.4px;
+  background-color: none;
+  float: left;
+  background-image: url("../assets/images/me.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 14px 0px rgba(0,0,0,1);
+}

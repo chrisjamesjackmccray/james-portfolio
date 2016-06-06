@@ -3,10 +3,6 @@
   background-image: url("../assets/images/re.jpg");
   background-attachment: fixed; }
 
-.sub-one {
-  height: 50vh;
-  background-color: #191919; }
-
 .section-two {
   height: 3208px;
   margin-top: 0;
@@ -17,10 +13,6 @@
 @media screen and (min-width: 820px) {
   .section-two {
     height: 1645px; } }
-
-.footer {
-  height: 40vh;
-  background-color: #191919; }
 
 .link-text {
   color: white;
@@ -37,10 +29,10 @@
   transition: all 0.5s ease;
   cursor: pointer;
   margin-top: 55px;
-  margin-right: 89px; }
+  margin-right: 6.7%; }
 
 #resume:hover {
-  transform: rotate(360deg);
+  transform: rotateX(360deg);
   transition: all 0.5s ease;
   border-color: transparent silver; }
 
@@ -68,7 +60,7 @@
   margin-right: 20px; }
 
 #resume-footer:hover {
-  transform: rotate(360deg);
+  transform: rotateX(360deg);
   transition: all 0.5s ease;
   border-color: transparent silver; }
 
@@ -86,13 +78,12 @@
 .eye {
   width: 200px;
   height: 200px;
-  margin-top: 37px;
+  margin-top: 30px;
   padding: 0;
   line-height: 300px;
   transition: all 0.6s ease;
   color: black;
-  font-weight: bolder;
-  z-index: 75; }
+  font-weight: bolder; }
 
 .eye:hover {
   width: 5px;
@@ -102,7 +93,6 @@
 .transparent-left {
   width: 42.4%;
   height: 290px;
-  border-right: solid white 1px;
   border-left: solid white 1px;
   margin-top: 0px;
   float: left;
@@ -127,7 +117,23 @@ body {
   width: 100%;
   height: 145px;
   background-color: rgba(0, 0, 0, 0.9);
-  position: absolute; }
+  position: absolute;
+  box-shadow: 1px 3px 44px 0px black; }
+
+.nav-two-top {
+  width: 100%;
+  height: 3px;
+  background-color: goldenrod;
+  position: absolute;
+  box-shadow: 1px 3px 44px 0px black;
+  margin-top: 145px; }
+
+.nav-two {
+  width: 100%;
+  height: 3px;
+  background-color: goldenrod;
+  position: absolute;
+  box-shadow: 1px 3px 44px 0px black; }
 
 .restaurant-image {
   width: 250px;
@@ -511,3 +517,117 @@ input:hover {
 .card:hover {
   transform: perspective(700px) rotateY(180deg);
   margin-top: 3.5%; }
+
+#resume-middle {
+  position: absolute;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-top: 280px;
+  margin-right: 6.7%; }
+
+#resume-middle:hover {
+  transform: rotateX(360deg);
+  transition: all 0.5s ease;
+  border-color: transparent silver; }
+
+#resume-middle:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent silver; }
+
+.sub-one {
+  height: 50vh;
+  background-color: #191919;
+  box-shadow: 1px 3px 44px 0px black; }
+
+@media screen and (min-width: 1400px) {
+  .nav-under-section-one {
+    width: 100%;
+    height: 3px;
+    background-color: goldenrod;
+    position: absolute;
+    box-shadow: 1px 3px 44px 0px black;
+    margin-top: 412px; } }
+
+#my-face {
+  width: 149px;
+  margin-top: 0px;
+  height: 147.4px;
+  background-color: none;
+  float: left;
+  background-image: url("../assets/images/me.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 14px 0px black; }
+
+#middle-left-box {
+  width: 150px;
+  height: calc(50% - 36px);
+  float: left; }
+
+.middle-holder {
+  width: 90%;
+  height: calc(100% - 36px);
+  margin: 0 auto; }
+
+.middle-right-box {
+  width: 53%;
+  height: calc(60% - 36px);
+  float: right; }
+
+.middle-right-des {
+  color: white;
+  padding: 10px;
+  padding-top: 0;
+  margin: 0; }
+
+.footer {
+  padding-top: 2.5%;
+  padding-bottom: 3%;
+  height: 40vh;
+  background-color: #191919;
+  box-shadow: 1px 3px 44px 0px black; }
+
+.footer-holder {
+  width: 90%;
+  height: calc(100% - 36px);
+  margin: 0 auto; }
+
+#footer-left-box {
+  width: 150px;
+  height: calc(50% - 36px);
+  float: left; }
+
+#resume-footer {
+  position: absolute;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-top: 280px;
+  margin-right: 6.7%; }
+
+#my-face-footer {
+  width: 149px;
+  margin-top: 0px;
+  height: 147.4px;
+  background-color: none;
+  float: left;
+  background-image: url("../assets/images/me.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 14px 0px black; }
