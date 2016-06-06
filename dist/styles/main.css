@@ -10,7 +10,7 @@
 .section-two {
   height: 3208px;
   margin-top: 0;
-  background-image: url("http://i.imgur.com/8LuHEif.jpg");
+  background-image: url("../assets/images/seashore.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -22,6 +22,102 @@
   height: 40vh;
   background-color: #191919; }
 
+.link-text {
+  color: white;
+  margin-top: -45px;
+  margin-left: 1px; }
+
+#resume {
+  position: relative;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-top: 55px;
+  margin-right: 89px; }
+
+#resume:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s ease;
+  border-color: transparent silver; }
+
+#resume:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent silver; }
+
+#resume-footer {
+  position: relative;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #444444 transparent;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-top: 37px;
+  margin-right: 20px; }
+
+#resume-footer:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s ease;
+  border-color: transparent silver; }
+
+#resume-footer:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent silver; }
+
+.eye {
+  width: 200px;
+  height: 200px;
+  margin-top: 37px;
+  padding: 0;
+  line-height: 300px;
+  transition: all 0.6s ease;
+  color: black;
+  font-weight: bolder;
+  z-index: 75; }
+
+.eye:hover {
+  width: 5px;
+  height: 5px;
+  margin-top: 300px; }
+
+.transparent-left {
+  width: 42.4%;
+  height: 290px;
+  border-right: solid white 1px;
+  border-left: solid white 1px;
+  margin-top: 0px;
+  float: left;
+  margin-left: 4.9%;
+  margin-top: 17px; }
+
+.transparent-right {
+  width: 42.4%;
+  height: 290px;
+  border-right: solid white 1px;
+  margin-top: 0px;
+  float: left;
+  margin-left: 5.1%;
+  margin-top: 17px; }
+
 body {
   margin: 0;
   height: 100%;
@@ -29,7 +125,7 @@ body {
 
 .nav {
   width: 100%;
-  height: 120px;
+  height: 145px;
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute; }
 
@@ -44,21 +140,6 @@ body {
   transition: all 0.6s ease;
   color: black;
   font-weight: bolder; }
-
-.eye {
-  width: 200px;
-  height: 200px;
-  margin-top: 37px;
-  padding: 0;
-  line-height: 300px;
-  transition: all 0.6s ease;
-  color: black;
-  font-weight: bolder; }
-
-.eye:hover {
-  width: 5px;
-  height: 5px;
-  margin-top: 300px; }
 
 .back-text {
   margin: 0;
@@ -164,6 +245,7 @@ body {
   transition: all 0.5s ease;
   background-image: url("../assets/images/Fast-Food.png");
   background-size: cover;
+  margin-top: 18px;
   background-position: 37% 22%; }
 
 .back {
@@ -283,39 +365,6 @@ input:hover {
   color: #191919;
   transition: all 0.5s ease; }
 
-.link-text {
-  color: white;
-  margin-top: -45px;
-  margin-left: 1px; }
-
-#resume {
-  position: relative;
-  width: 54px;
-  border-width: 50px 18px 0;
-  border-style: solid;
-  border-color: #444444 transparent;
-  float: right;
-  transition: all 0.8s ease;
-  cursor: pointer;
-  margin-top: 50px;
-  margin-right: 69px; }
-
-#resume:hover {
-  transform: rotate(360deg);
-  transition: all 0.8s ease;
-  border-color: transparent silver; }
-
-#resume:before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -85px;
-  left: -18px;
-  border-width: 0 45px 35px;
-  border-style: solid;
-  border-color: transparent transparent #444444; }
-
 .tower-image {
   width: 250px;
   height: 250px; }
@@ -343,8 +392,9 @@ input:hover {
   height: 290px;
   border-radius: 50%;
   transition: all 0.6s ease;
-  background-color: rgba(2, 5, 0, 0.5);
-  border: solid white 1px; }
+  border: solid white 1px;
+  box-shadow: 1px 3px 44px 0px black;
+  background-color: #132839; }
 
 @media screen and (min-width: 820px) {
   .trans {
@@ -437,6 +487,7 @@ input:hover {
   transition: all 0.5s ease;
   background-image: url("../assets/images/tower.png");
   background-size: cover;
+  margin-top: 18px;
   background-position: 37% 22%; }
 
 .back {
