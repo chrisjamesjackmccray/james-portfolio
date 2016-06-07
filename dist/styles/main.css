@@ -637,6 +637,26 @@ input:hover {
   float: left;
   padding-left: 10px; }
 
+@media screen and (min-width: 500px) {
+  .middle-right-box {
+    font-size: 20px; } }
+
+@media screen and (min-width: 600px) {
+  .middle-right-box {
+    font-size: 23px; } }
+
+@media screen and (min-width: 700px) {
+  .middle-right-box {
+    font-size: 25px; } }
+
+@media screen and (min-width: 800px) {
+  .middle-right-box {
+    font-size: 27px; } }
+
+@media screen and (min-width: 900px) {
+  .middle-right-box {
+    font-size: 29px; } }
+
 @media screen and (min-width: 1200px) {
   .middle-right-box {
     font-size: 32px; } }
