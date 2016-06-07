@@ -82,9 +82,16 @@
 
 .middle-right-box {
   width: 53%;
-  height: calc(60% - 36px);
+  height: calc(70% - 36px);
   // background-color: black;
-  float: right;
+  float: left;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .middle-right-box {
+    font-size: 32px;
+  }
 }
 
 .middle-right-des {

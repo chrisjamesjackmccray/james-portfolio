@@ -1,5 +1,4 @@
 .footer {
-  padding-top: 2.5%;
   padding-bottom: 3%;
   height: 40vh;
   background-color: #191919;
@@ -16,7 +15,7 @@
 
 #footer-left-box {
   width: 150px;
-  height: calc(50% - 36px);
+  // height: calc(50% - 36px);
   // background-color: red;
   float: left;
 }
@@ -37,7 +36,7 @@
 #my-face-footer {
   width: 149px;
   margin-top: 0px;
-  height: 147.4px;
+  height: 148px;
   background-color: none;
   float: left;
   background-image: url("../assets/images/me.jpg");

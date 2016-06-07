@@ -11,19 +11,28 @@ body {
   background-color: rgba(0, 0, 0, .9);
   position: absolute;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  width: 100%;
   // z-index: 99;
 }
 
-
-
-.nav-two-top {
+.nav:hover .nav-three-top {
   width: 100%;
-  height: 3px;
-  background-color: goldenrod;
+}
+
+.nav:hover .nav-four-top {
+  width: 100%;
+}
+
+#opening-statement {
+  text-align: center;
+  transition: all 0.5s ease;
+  width: 84%;
+  line-height: 40px;
+  color: white;
   position: absolute;
-  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
-  margin-top: 145px;
-  // z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -34,4 +43,48 @@ body {
   position: absolute;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   // z-index: 99;
+}
+
+.nav-two-top {
+  width: 100%;
+  height: 3px;
+  background-color: goldenrod;
+  position: absolute;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  margin-top: 145px;
+  z-index: 99;
+}
+
+.nav-three-top {
+  width: 0px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  float: left;
+  transition: all 1s ease;
+  opacity: .6;
+  z-index: 102;
+}
+
+.nav-three-top:hover {
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.nav-four-top {
+  width: 0px;
+  height: 3px;
+  background-color: blue;
+  position: absolute;
+  box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+  right: 0;
+  transition: all 1s ease;
+  opacity: .8;
+  z-index: 101;
+}
+
+.nav-four-top:hover {
+  width: 100%;
+  transition: all 1s ease;
 }
