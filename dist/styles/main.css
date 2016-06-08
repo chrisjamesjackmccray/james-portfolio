@@ -1,7 +1,8 @@
 .section-one {
   height: 100vh;
   background-image: url("../assets/images/re.jpg");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
 
 .section-two {
   height: 3208px;
@@ -110,7 +111,9 @@
 
 body {
   margin: 0;
-  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
   background-color: #7c7c7c; }
 
 .nav {
