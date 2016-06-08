@@ -32,7 +32,7 @@
 }
 
 .sub-one {
-  height: 50vh;
+  height: 400px;
   background-color: #191919;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   // padding-bottom: 0;
@@ -125,6 +125,8 @@
     font-size: 29px;
   }
 }
+
+
 
 @media screen and (min-width: 1200px) {
   .middle-right-box {

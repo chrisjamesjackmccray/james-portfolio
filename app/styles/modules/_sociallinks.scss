@@ -35,8 +35,21 @@
   border-color: transparent transparent silver;
 }
 
+// #resume-footer {
+//   position: relative;
+//   width: 54px;
+//   border-width: 50px 18px 0;
+//   border-style: solid;
+//   border-color: #444444 transparent;
+//   float: right;
+//   transition: all 0.5s ease;
+//   cursor: pointer;
+//   margin-top: 37px;
+//   margin-right: 20px;
+// }
+
 #resume-footer {
-  position: relative;
+  position: absolute;
   width: 54px;
   border-width: 50px 18px 0;
   border-style: solid;
@@ -44,8 +57,9 @@
   float: right;
   transition: all 0.5s ease;
   cursor: pointer;
-  margin-top: 37px;
-  margin-right: 20px;
+  // margin-top: 280px;
+  margin-right: 6.7%;
+  margin-top: 280px;
 }
 
 #resume-footer:hover {

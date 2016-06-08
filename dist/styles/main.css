@@ -48,7 +48,7 @@
   border-color: transparent transparent silver; }
 
 #resume-footer {
-  position: relative;
+  position: absolute;
   width: 54px;
   border-width: 50px 18px 0;
   border-style: solid;
@@ -56,8 +56,8 @@
   float: right;
   transition: all 0.5s ease;
   cursor: pointer;
-  margin-top: 37px;
-  margin-right: 20px; }
+  margin-right: 6.7%;
+  margin-top: 280px; }
 
 #resume-footer:hover {
   transform: rotateX(360deg);
@@ -328,7 +328,7 @@ body {
 
 .restaurant-rater {
   width: 90%;
-  height: 93vh;
+  height: 780px;
   border: solid white 1px;
   margin: 0 auto;
   box-shadow: 1px 3px 44px 0px black;
@@ -336,7 +336,7 @@ body {
 
 @media screen and (min-width: 820px) {
   .restaurant-rater {
-    height: 47vh;
+    height: 387px;
     margin-bottom: 1.2%; } }
 
 .restaurant-des {
@@ -380,7 +380,7 @@ body {
 .right-box {
   width: calc(100% - 27px);
   padding: 10px;
-  height: 45vh;
+  height: 370px;
   margin-bottom: 30px;
   margin-right: 17px;
   padding-left: 17px;
@@ -395,7 +395,7 @@ body {
     float: right;
     border-left: solid white 1px;
     width: 50%;
-    height: 40vh;
+    height: 330px;
     background-color: none; } }
 
 input {
@@ -596,7 +596,7 @@ input:hover {
   border-color: transparent transparent silver; }
 
 .sub-one {
-  height: 50vh;
+  height: 400px;
   background-color: #191919;
   box-shadow: 1px 3px 44px 0px black; }
 
@@ -668,7 +668,7 @@ input:hover {
   margin: 0; }
 
 .footer {
-  height: 50vh;
+  height: 400px;
   background-color: #191919;
   box-shadow: 1px 3px 44px 0px black; }
 
@@ -682,18 +682,6 @@ input:hover {
   width: 150px;
   height: calc(50% - 36px);
   float: left; }
-
-#resume-footer {
-  position: absolute;
-  width: 54px;
-  border-width: 50px 18px 0;
-  border-style: solid;
-  border-color: #444444 transparent;
-  float: right;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  margin-top: 280px;
-  margin-right: 6.7%; }
 
 #my-face-footer {
   width: 149px;

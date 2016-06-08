@@ -1,6 +1,6 @@
 .restaurant-rater {
   width: 90%;
-  height: 93vh;
+  height: 780px;
   border: solid white 1px;
   margin: 0 auto;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
@@ -8,7 +8,7 @@
 }
 @media screen and (min-width: 820px) {
   .restaurant-rater {
-    height: 47vh;
+    height: 387px;
     margin-bottom: 1.2%;
   }
 }
@@ -75,7 +75,7 @@
 .right-box {
   width: calc(100% - 27px);
   padding: 10px;
-  height: 45vh;
+  height: 370px;
   margin-bottom: 30px;
   margin-right: 17px;
   padding-left: 17px;
@@ -91,7 +91,7 @@
     float: right;
     border-left: solid white 1px;
     width: 50%;
-    height: 40vh;
+    height: 330px;
     background-color: none;
   }
 }
