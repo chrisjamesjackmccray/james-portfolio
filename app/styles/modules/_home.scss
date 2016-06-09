@@ -7,17 +7,26 @@
   background-repeat: no-repeat;
 }
 
+.transparent-cover {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: deeppink;
+  opacity: .1;
+  z-index: 50;
+}
+
 
 .section-two {
   height: 3208px;
   margin-top: 0;
-  background-image: url('../assets/images/seashore.jpg');
+  background-image: url('../assets/images/pinky.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 @media screen and (min-width: 820px) {
   .section-two {
-      height: 1645px;
+    height: 1645px;
   }
 }

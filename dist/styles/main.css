@@ -5,10 +5,18 @@
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
+.transparent-cover {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: deeppink;
+  opacity: .1;
+  z-index: 50; }
+
 .section-two {
   height: 3208px;
   margin-top: 0;
-  background-image: url("../assets/images/seashore.jpg");
+  background-image: url("../assets/images/pinky.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -123,7 +131,8 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   box-shadow: 1px 3px 44px 0px black;
-  width: 100%; }
+  width: 100%;
+  z-index: 99; }
 
 .nav:hover .nav-three-top {
   width: 100%; }
@@ -685,7 +694,8 @@ input:hover {
   letter-spacing: 10px;
   margin-bottom: 0;
   border-left: solid white 1px;
-  transition: all .5s ease; }
+  transition: all .5s ease;
+  text-shadow: black 4px 4px 4px; }
 
 @media screen and (min-width: 450px) {
   .middle-head {
@@ -761,9 +771,9 @@ input:hover {
 
 @media screen and (min-width: 500px) {
   .middle-right-box {
-    font-size: 20px; } }
+    font-size: 19px; } }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 640px) {
   .middle-right-box {
     font-size: 22px; } }
 
