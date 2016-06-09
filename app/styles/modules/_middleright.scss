@@ -85,14 +85,27 @@
   // background-color: gray;
 }
 
+.middle-head {
+  margin-top: 30px;
+  margin-left: 0;
+  width: 200px;
+  float: left;
+  width: 35%;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin-bottom: 0;
+  border-right: solid white 1px;
 
+}
 
 .middle-right-box {
   margin-top: 35px;
   width: 53%;
   height: calc(70% - 36px);
   // background-color: black;
-  float: left;
+  float: right;
   padding-left: 10px;
 }
 
@@ -135,7 +148,7 @@
 }
 
 .middle-right-des {
-  color: white;
+  color: silver;
   padding: 10px;
   padding-top: 0;
   margin: 0;
