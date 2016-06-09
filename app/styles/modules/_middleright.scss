@@ -89,15 +89,102 @@
   margin-top: 30px;
   margin-left: 0;
   width: 200px;
-  float: left;
-  width: 35%;
+  float: right;
+  width: 52%;
   text-align: center;
   color: white;
-  font-size: 80px;
+  font-size: 20px;
   letter-spacing: 10px;
   margin-bottom: 0;
-  border-right: solid white 1px;
+  border-left: solid white 1px;
+  transition: all .5s ease;
+}
 
+@media screen and (min-width: 450px) {
+  .middle-head {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .middle-head {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .middle-head {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .middle-head {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .middle-head {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .middle-head {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .middle-head {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .middle-head {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .middle-head {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .middle-head {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 200px;
+    float: right;
+    width: 52%;
+    text-align: center;
+    color: white;
+    font-size: 500%;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    border-left: solid white 1px;
+  }
+}
+
+@media screen and (min-width: 1272px) {
+  .middle-head {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+    width: 35%;
+    text-align: center;
+    color: white;
+    font-size: 500%;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    border-right: solid white 1px;
+    border-left: none;
+  }
 }
 
 .middle-right-box {
