@@ -1,3 +1,6 @@
+a {
+  color: #191615; }
+
 .section-one {
   height: 100vh;
   background-image: url("../assets/images/re.jpg");
@@ -434,6 +437,15 @@ input:hover {
   background-color: white;
   color: #191919;
   transition: all 0.5s ease; }
+
+.live-button {
+  margin-left: 10px;
+  float: right; }
+
+.button-wrap {
+  width: 300px;
+  margin: 0 auto;
+  float: left; }
 
 .tower-image {
   width: 250px;
