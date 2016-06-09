@@ -20,12 +20,6 @@ class HomeController {
     // $(function() {
     //   $if('.trans')(mousenter).trigger('.card:hover');
     // });
-
-    
-
-
-
-
   }
 }
 

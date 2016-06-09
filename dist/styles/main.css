@@ -141,7 +141,8 @@ body {
   top: 50%;
   left: 50%;
   opacity: 1;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  text-shadow: black 3px 3px 3px; }
 
 .nav-two {
   width: 100%;
@@ -572,6 +573,43 @@ input:hover {
   transform: perspective(700px) rotateY(180deg);
   margin-top: 3.5%; }
 
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.linkedin {
+  float: left;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease;
+  margin-top: 10px; }
+
+.github {
+  float: left;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease;
+  margin-left: 17px;
+  margin-top: 10.5px; }
+
+.email {
+  position: absolute;
+  float: right;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease;
+  margin-left: 17px;
+  margin-top: 14px; }
+
+#middle-left-bottom {
+  width: 170px;
+  height: 50px;
+  margin-left: 110px;
+  margin-top: 280px; }
+
 #resume-middle {
   position: absolute;
   width: 54px;
@@ -613,7 +651,7 @@ input:hover {
   box-shadow: 1px 3px 44px 0px black;
   margin-top: 412px; }
 
-#my-face {
+#my-self {
   width: 149px;
   margin-top: 0px;
   height: 147.4px;
@@ -727,7 +765,7 @@ input:hover {
 
 @media screen and (min-width: 600px) {
   .middle-right-box {
-    font-size: 23px; } }
+    font-size: 22px; } }
 
 @media screen and (min-width: 700px) {
   .middle-right-box {
@@ -912,3 +950,10 @@ input:hover {
   background-size: cover;
   margin-top: 18px;
   background-position: 37% 22%; }
+
+.footer-links {
+  width: 170px;
+  height: 50px;
+  float: left;
+  margin-left: 110px;
+  margin-top: 132px; }
