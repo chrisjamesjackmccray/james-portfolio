@@ -451,7 +451,6 @@ input {
   border-radius: 20px; }
 
 input:hover {
-  width: 145px;
   letter-spacing: .5px;
   font-weight: bolder;
   font-size: 23px;
