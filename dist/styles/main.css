@@ -2,14 +2,14 @@ a {
   color: #191615; }
 
 .section-one {
-  height: 100vh;
+  height: 823.5px;
   background-image: url("../assets/images/re.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
 .transparent-cover {
-  height: 100vh;
+  height: 823.5px;
   background-size: cover;
   background-attachment: fixed;
   background-color: deeppink;
@@ -17,11 +17,15 @@ a {
   z-index: 50; }
 
 .section-two {
-  height: 3208px;
+  height: 3325px;
   margin-top: 0;
   background-image: url("../assets/images/pinky.jpg");
   background-size: cover;
   background-attachment: fixed; }
+
+@media screen and (min-width: 362px) {
+  .section-two {
+    height: 3260px; } }
 
 @media screen and (min-width: 820px) {
   .section-two {
@@ -150,7 +154,7 @@ body {
   line-height: 40px;
   color: white;
   position: absolute;
-  top: 50%;
+  top: 420px;
   left: 50%;
   opacity: 1;
   transform: translate(-50%, -50%);
@@ -345,12 +349,17 @@ body {
   margin-top: 3.5%; }
 
 .restaurant-rater {
-  width: 90%;
-  height: 760px;
+  width: 99.2%;
+  height: 810px;
   border: solid white 1px;
   margin: 0 auto;
   box-shadow: 1px 3px 44px 0px black;
   margin-bottom: 4%; }
+
+@media screen and (min-width: 362px) {
+  .restaurant-rater {
+    width: 90%;
+    height: 780px; } }
 
 @media screen and (min-width: 820px) {
   .restaurant-rater {
@@ -398,13 +407,25 @@ body {
 .right-box {
   width: calc(100% - 27px);
   padding: 10px;
-  height: 370px;
+  height: 420px;
   margin-bottom: 30px;
   margin-right: 17px;
   padding-left: 17px;
   box-shadow: 1px 3px 44px 0px black;
   background-color: rgba(0, 0, 0, 0.9);
   transition: all 0.5s ease; }
+
+@media screen and (min-width: 362px) {
+  .right-box {
+    width: calc(100% - 27px);
+    padding: 10px;
+    height: 370px;
+    margin-bottom: 30px;
+    margin-right: 17px;
+    padding-left: 17px;
+    box-shadow: 1px 3px 44px 0px black;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease; } }
 
 @media screen and (min-width: 820px) {
   .right-box {
@@ -443,9 +464,17 @@ input:hover {
   float: right; }
 
 .button-wrap {
-  width: 300px;
+  width: 290px;
   margin: 0 auto;
-  float: left; }
+  float: left;
+  margin-left: -3px; }
+
+@media screen and (min-width: 362px) {
+  .button-wrap {
+    width: 300px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 0; } }
 
 .tower-image {
   width: 250px;
@@ -699,51 +728,83 @@ input:hover {
   margin-left: 0;
   width: 200px;
   float: right;
-  width: 52%;
+  width: 43%;
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
   letter-spacing: 10px;
   margin-bottom: 0;
-  border-left: solid white 1px;
   transition: all .5s ease;
   text-shadow: black 4px 4px 4px; }
 
+@media screen and (min-width: 360px) {
+  .middle-head {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 200px;
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    transition: all .5s ease;
+    text-shadow: black 4px 4px 4px; } }
+
 @media screen and (min-width: 450px) {
   .middle-head {
-    font-size: 25px; } }
+    font-size: 25px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 500px) {
   .middle-head {
-    font-size: 30px; } }
+    font-size: 30px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 550px) {
   .middle-head {
-    font-size: 35px; } }
+    font-size: 35px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 600px) {
   .middle-head {
-    font-size: 40px; } }
+    font-size: 40px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 650px) {
   .middle-head {
-    font-size: 45px; } }
+    font-size: 45px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 700px) {
   .middle-head {
-    font-size: 50px; } }
+    font-size: 50px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 750px) {
   .middle-head {
-    font-size: 55px; } }
+    font-size: 55px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 800px) {
   .middle-head {
-    font-size: 60px; } }
+    font-size: 60px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 850px) {
   .middle-head {
-    font-size: 65px; } }
+    font-size: 65px;
+    width: 52%;
+    border-left: solid white 1px; } }
 
 @media screen and (min-width: 880px) {
   .middle-head {
@@ -776,34 +837,50 @@ input:hover {
 
 .middle-right-box {
   margin-top: 35px;
-  width: 53%;
-  height: calc(70% - 36px);
+  width: 40%;
+  height: calc(50% - 36px);
   float: right;
-  padding-left: 10px; }
+  padding-left: 10px;
+  font-size: 10px; }
+
+@media screen and (min-width: 360px) {
+  .middle-right-box {
+    margin-top: 35px;
+    width: 50%;
+    height: calc(70% - 36px);
+    float: right;
+    padding-left: 10px;
+    font-size: 16px; } }
 
 @media screen and (min-width: 500px) {
   .middle-right-box {
-    font-size: 19px; } }
+    font-size: 19px;
+    width: 53%; } }
 
 @media screen and (min-width: 640px) {
   .middle-right-box {
-    font-size: 22px; } }
+    font-size: 22px;
+    width: 53%; } }
 
 @media screen and (min-width: 700px) {
   .middle-right-box {
-    font-size: 25px; } }
+    font-size: 25px;
+    width: 53%; } }
 
 @media screen and (min-width: 800px) {
   .middle-right-box {
-    font-size: 27px; } }
+    font-size: 27px;
+    width: 53%; } }
 
 @media screen and (min-width: 900px) {
   .middle-right-box {
-    font-size: 29px; } }
+    font-size: 29px;
+    width: 53%; } }
 
 @media screen and (min-width: 1200px) {
   .middle-right-box {
-    font-size: 32px; } }
+    font-size: 32px;
+    width: 53%; } }
 
 .middle-right-des {
   color: silver;

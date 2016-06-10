@@ -28,9 +28,19 @@ input:hover {
 }
 
 .button-wrap {
-  width: 300px;
+  width: 290px;
   margin: 0 auto;
   float: left;
+  margin-left: -3px;
+}
+
+@media screen and (min-width: 362px) {
+  .button-wrap {
+    width: 300px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 0;
+  }
 }
 
 

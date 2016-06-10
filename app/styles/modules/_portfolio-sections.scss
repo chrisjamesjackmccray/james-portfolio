@@ -1,11 +1,19 @@
 .restaurant-rater {
-  width: 90%;
-  height: 760px;
+  width: 99.2%;
+  height: 810px;
   border: solid white 1px;
   margin: 0 auto;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   margin-bottom: 4%;
 }
+
+@media screen and (min-width: 362px) {
+  .restaurant-rater {
+    width: 90%;
+    height: 780px;
+  }
+}
+
 @media screen and (min-width: 820px) {
   .restaurant-rater {
     height: 387px;
@@ -75,13 +83,27 @@
 .right-box {
   width: calc(100% - 27px);
   padding: 10px;
-  height: 370px;
+  height: 420px;
   margin-bottom: 30px;
   margin-right: 17px;
   padding-left: 17px;
   box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
   background-color: rgba(0, 0, 0, .9);
   transition: all 0.5s ease;
+}
+
+@media screen and (min-width: 362px) {
+  .right-box {
+    width: calc(100% - 27px);
+    padding: 10px;
+    height: 370px;
+    margin-bottom: 30px;
+    margin-right: 17px;
+    padding-left: 17px;
+    box-shadow: 1px 3px 44px 0px rgba(0,0,0,1);
+    background-color: rgba(0, 0, 0, .9);
+    transition: all 0.5s ease;
+  }
 }
 
 @media screen and (min-width: 820px) {

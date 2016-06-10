@@ -4,7 +4,7 @@ a {
 
 
 .section-one {
-  height: 100vh;
+  height: 823.5px;
   background-image: url('../assets/images/re.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -12,7 +12,7 @@ a {
 }
 
 .transparent-cover {
-  height: 100vh;
+  height: 823.5px;
   background-size: cover;
   background-attachment: fixed;
   background-color: deeppink;
@@ -22,11 +22,17 @@ a {
 
 
 .section-two {
-  height: 3208px;
+  height: 3325px;
   margin-top: 0;
   background-image: url('../assets/images/pinky.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media screen and (min-width: 362px) {
+  .section-two {
+    height: 3260px;
+  }
 }
 
 @media screen and (min-width: 820px) {

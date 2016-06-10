@@ -133,68 +133,106 @@
   margin-left: 0;
   width: 200px;
   float: right;
-  width: 52%;
+  width: 43%;
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
   letter-spacing: 10px;
   margin-bottom: 0;
-  border-left: solid white 1px;
+  // border-left: solid white 1px;
   transition: all .5s ease;
   text-shadow: black 4px 4px 4px;
 }
 
+@media screen and (min-width: 360px) {
+  .middle-head {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 200px;
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    // border-left: solid white 1px;
+    transition: all .5s ease;
+    text-shadow: black 4px 4px 4px;
+  }
+}
+
+
+
 @media screen and (min-width: 450px) {
   .middle-head {
     font-size: 25px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 500px) {
   .middle-head {
     font-size: 30px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 550px) {
   .middle-head {
     font-size: 35px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 600px) {
   .middle-head {
     font-size: 40px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 650px) {
   .middle-head {
     font-size: 45px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 700px) {
   .middle-head {
     font-size: 50px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 750px) {
   .middle-head {
     font-size: 55px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .middle-head {
     font-size: 60px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
 @media screen and (min-width: 850px) {
   .middle-head {
     font-size: 65px;
+    width: 52%;
+    border-left: solid white 1px;
   }
 }
 
@@ -233,40 +271,60 @@
 
 .middle-right-box {
   margin-top: 35px;
-  width: 53%;
-  height: calc(70% - 36px);
+  width: 40%;
+  height: calc(50% - 36px);
   // background-color: black;
   float: right;
   padding-left: 10px;
+  font-size: 10px;
 }
+
+@media screen and (min-width: 360px) {
+  .middle-right-box {
+    margin-top: 35px;
+    width: 50%;
+    height: calc(70% - 36px);
+    // background-color: black;
+    float: right;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+}
+
+
 
 @media screen and (min-width: 500px) {
   .middle-right-box {
     font-size: 19px;
+    width: 53%;
   }
 }
 
 @media screen and (min-width: 640px) {
   .middle-right-box {
     font-size: 22px;
+    width: 53%;
   }
 }
 
 @media screen and (min-width: 700px) {
   .middle-right-box {
     font-size: 25px;
+    width: 53%;
   }
 }
 
 @media screen and (min-width: 800px) {
   .middle-right-box {
     font-size: 27px;
+    width: 53%;
   }
 }
 
 @media screen and (min-width: 900px) {
   .middle-right-box {
     font-size: 29px;
+    width: 53%;
   }
 }
 
@@ -275,6 +333,7 @@
 @media screen and (min-width: 1200px) {
   .middle-right-box {
     font-size: 32px;
+    width: 53%;
   }
 }
 
