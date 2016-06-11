@@ -124,6 +124,9 @@ a {
   margin-left: 5.1%;
   margin-top: 17px; }
 
+a {
+  text-decoration: none; }
+
 body {
   margin: 0;
   margin-left: 0;
@@ -131,6 +134,62 @@ body {
   height: 100%;
   padding: 0;
   background-color: #7c7c7c; }
+
+.name-stuff {
+  width: 180px;
+  height: 125px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  margin: 0;
+  float: left; }
+
+@media screen and (min-width: 500px) {
+  .name-stuff {
+    width: 280px;
+    font-size: 25px; } }
+
+.name {
+  color: white;
+  letter-spacing: 0px;
+  margin: 25px 0 0 0;
+  font-size: 25px;
+  font-family: 'Great Vibes', cursive; }
+
+@media screen and (min-width: 500px) {
+  .name {
+    margin: 20px 0 0 0;
+    font-size: 35px;
+    letter-spacing: 6px; } }
+
+.front-dev {
+  color: white;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #C0C0C0;
+  letter-spacing: 1px; }
+
+@media screen and (min-width: 500px) {
+  .front-dev {
+    font-size: 19px;
+    letter-spacing: 3px; } }
+
+.my-email {
+  color: #C0C0C0;
+  padding-bottom: 20px;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+  transition: all .5s ease;
+  font-size: 12px; }
+
+@media screen and (min-width: 500px) {
+  .my-email {
+    font-size: 12.5px;
+    letter-spacing: 2.5px; } }
+
+.my-email:hover {
+  transition: all .5s ease;
+  color: white; }
 
 .nav {
   width: 100%;
@@ -226,7 +285,8 @@ body {
   text-shadow: black 2px 2px 2px;
   margin-bottom: 0;
   transition: all 1s ease;
-  color: white; }
+  color: white;
+  font-family: helvetica; }
 
 .trans {
   position: absolute;
@@ -494,7 +554,8 @@ input:hover {
   padding: 0;
   text-shadow: black 2px 2px 2px;
   margin-bottom: 0;
-  color: white; }
+  color: white;
+  font-family: helvetica; }
 
 .trans {
   position: absolute;
@@ -730,11 +791,12 @@ input:hover {
   width: 43%;
   text-align: center;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 10px;
   margin-bottom: 0;
   transition: all .5s ease;
-  text-shadow: black 4px 4px 4px; }
+  text-shadow: black 4px 4px 4px;
+  font-family: 'Arvo', serif; }
 
 @media screen and (min-width: 360px) {
   .middle-head {
