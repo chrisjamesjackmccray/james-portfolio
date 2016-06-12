@@ -7,6 +7,13 @@
   margin-bottom: 4%;
 }
 
+@media screen and (min-width: 374px) {
+  .restaurant-rater {
+    width: 90%;
+    height: 800px;
+  }
+}
+
 @media screen and (min-width: 380px) {
   .restaurant-rater {
     width: 90%;

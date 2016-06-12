@@ -27,6 +27,10 @@ a {
   .section-two {
     height: 3260px; } }
 
+@media screen and (min-width: 374px) {
+  .section-two {
+    height: 3285px; } }
+
 @media screen and (min-width: 820px) {
   .section-two {
     height: 1645px; } }
@@ -415,6 +419,11 @@ body {
   margin: 0 auto;
   box-shadow: 1px 3px 44px 0px black;
   margin-bottom: 4%; }
+
+@media screen and (min-width: 374px) {
+  .restaurant-rater {
+    width: 90%;
+    height: 800px; } }
 
 @media screen and (min-width: 380px) {
   .restaurant-rater {
