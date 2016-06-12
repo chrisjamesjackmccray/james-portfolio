@@ -3,7 +3,7 @@ a {
 
 .section-one {
   height: 823.5px;
-  background-image: url("../assets/images/re.jpg");
+  background-image: url("../app/assets/images/re.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
@@ -19,7 +19,7 @@ a {
 .section-two {
   height: 3325px;
   margin-top: 0;
-  background-image: url("../assets/images/pinky.jpg");
+  background-image: url("../app/assets/images/pinky.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -384,13 +384,13 @@ body {
   backface-visibility: hidden;
   border-radius: 50%;
   transition: all 0.5s ease;
-  background-image: url("../assets/images/Fast-Food.png");
+  background-image: url("../app/assets/images/Fast-Food.png");
   background-size: cover;
   margin-top: 18px;
   background-position: 37% 22%; }
 
 .back {
-  background-image: url("../assets/images/Fast-Food.png");
+  background-image: url("../app/assets/images/Fast-Food.png");
   position: absolute;
   margin: 0;
   padding: 0;
@@ -665,7 +665,7 @@ input:hover {
   backface-visibility: hidden;
   border-radius: 50%;
   transition: all 0.5s ease;
-  background-image: url("../assets/images/tower.png");
+  background-image: url("../app/assets/images/tower.png");
   background-size: cover;
   margin-top: 18px;
   background-position: 37% 22%; }
@@ -788,7 +788,7 @@ input:hover {
   height: 147.4px;
   background-color: none;
   float: left;
-  background-image: url("../assets/images/me.jpg");
+  background-image: url("../app/assets/images/me.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 1px 2px 14px 0px black; }
@@ -991,7 +991,7 @@ input:hover {
   height: 148px;
   background-color: none;
   float: left;
-  background-image: url("../assets/images/me.jpg");
+  background-image: url("../app/assets/images/me.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 1px 2px 14px 0px black; }
@@ -1126,7 +1126,7 @@ input:hover {
   backface-visibility: hidden;
   border-radius: 50%;
   transition: all 0.5s ease;
-  background-image: url("../assets/images/skate.png");
+  background-image: url("../app/assets/images/skate.png");
   background-size: cover;
   margin-top: 18px;
   background-position: 37% 22%; }
