@@ -12,6 +12,11 @@
   margin-top: 10px;
 }
 
+.linkedin:hover {
+  background-color: #C0C0C0;
+  border-radius: 50%;
+}
+
 .github {
   float: left;
   cursor: pointer;
@@ -22,6 +27,11 @@
   margin-top: 10.5px;
 }
 
+.github:hover {
+  background-color: #C0C0C0;
+  border-radius: 50%;
+}
+
 .email {
   position: absolute;
   float: right;
@@ -30,7 +40,12 @@
   height: 40px;
   transition: all 0.5s ease;
   margin-left: 17px;
-  margin-top: 14px;
+  margin-top: 12px;
+}
+
+.email:hover {
+  background-color: #C0C0C0;
+  border-radius: 50%;
 }
 
 #middle-left-bottom {
