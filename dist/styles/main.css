@@ -928,7 +928,7 @@ input:hover {
   .middle-right-box {
     margin-top: 35px;
     width: 50%;
-    height: calc(70% - 36px);
+    height: calc(50% - 36px);
     float: right;
     padding-left: 10px;
     font-size: 12px; } }
