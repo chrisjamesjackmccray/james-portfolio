@@ -38,7 +38,11 @@ a {
 .link-text {
   color: white;
   margin-top: -45px;
+<<<<<<< HEAD
   text-shadow: center; }
+=======
+  text-align: center; }
+>>>>>>> master
 
 #resume {
   position: relative;
