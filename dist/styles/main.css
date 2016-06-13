@@ -931,7 +931,7 @@ input:hover {
     height: calc(50% - 36px);
     float: right;
     padding-left: 10px;
-    font-size: 12px; } }
+    font-size: 14px; } }
 
 @media screen and (min-width: 500px) {
   .middle-right-box {
