@@ -931,31 +931,31 @@ input:hover {
     height: calc(70% - 36px);
     float: right;
     padding-left: 10px;
-    font-size: 16px; } }
+    font-size: 15px; } }
 
 @media screen and (min-width: 500px) {
   .middle-right-box {
-    font-size: 19px;
+    font-size: 18px;
     width: 53%; } }
 
 @media screen and (min-width: 640px) {
   .middle-right-box {
-    font-size: 22px;
+    font-size: 21px;
     width: 53%; } }
 
 @media screen and (min-width: 700px) {
   .middle-right-box {
-    font-size: 25px;
+    font-size: 24px;
     width: 53%; } }
 
 @media screen and (min-width: 800px) {
   .middle-right-box {
-    font-size: 27px;
+    font-size: 26px;
     width: 53%; } }
 
 @media screen and (min-width: 900px) {
   .middle-right-box {
-    font-size: 29px;
+    font-size: 28px;
     width: 53%; } }
 
 @media screen and (min-width: 1200px) {
