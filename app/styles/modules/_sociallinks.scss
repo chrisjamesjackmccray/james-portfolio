@@ -4,6 +4,12 @@
   margin-left: 1px;
 }
 
+@media screen and (max-width: 500px) {
+  .link-text {
+    margin-right: 2px;
+  }
+}
+
 #resume {
   position: relative;
   width: 54px;
