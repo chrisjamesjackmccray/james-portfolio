@@ -38,11 +38,7 @@ a {
 .link-text {
   color: white;
   margin-top: -45px;
-  margin-left: 1px; }
-
-@media screen and (max-width: 500px) {
-  .link-text {
-    margin-right: 2px; } }
+  text-align: center; }
 
 #resume {
   position: relative;
