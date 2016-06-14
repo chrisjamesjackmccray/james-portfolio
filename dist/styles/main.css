@@ -998,27 +998,6 @@ input:hover {
   background-repeat: no-repeat;
   box-shadow: 1px 2px 14px 0px black; }
 
-.sig {
-  width: 300px;
-  height: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  float: right;
-  margin-top: 277px;
-  margin-right: 0;
-  display: none; }
-
-@media screen and (min-width: 630px) {
-  .sig {
-    width: 300px;
-    height: 100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: 277px;
-    margin-right: 0;
-    display: block; } }
-
 .footer:hover .nav-three-top-footer {
   width: 100%; }
 
