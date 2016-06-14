@@ -14,10 +14,9 @@
   border-radius: 50%;
 }
 
-// .linkedin:hover {
-//   background-color: #C0C0C0;
-//   border-radius: 50%;
-// }
+.linkedin:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+}
 
 .github {
   float: left;
@@ -32,10 +31,9 @@
 
 }
 
-// .github:hover {
-//   background-color: #C0C0C0;
-//   border-radius: 50%;
-// }
+.github:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+}
 
 .email {
   position: absolute;
@@ -50,10 +48,9 @@
   border-radius: 50%;
 }
 
-// .email:hover {
-//   background-color: #C0C0C0;
-//   border-radius: 50%;
-// }
+.email:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+}
 
 #middle-left-bottom {
   width: 170px;

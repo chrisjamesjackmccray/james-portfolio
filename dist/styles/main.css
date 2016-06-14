@@ -708,6 +708,9 @@ input:hover {
   box-shadow: 0px 2px 2px 0px black;
   border-radius: 50%; }
 
+.linkedin:hover {
+  box-shadow: 0px 0px 0px 0px black; }
+
 .github {
   float: left;
   cursor: pointer;
@@ -718,6 +721,9 @@ input:hover {
   margin-top: 10.5px;
   box-shadow: 0px 2px 2px 0px black;
   border-radius: 50%; }
+
+.github:hover {
+  box-shadow: 0px 0px 0px 0px black; }
 
 .email {
   position: absolute;
@@ -730,6 +736,9 @@ input:hover {
   margin-top: 12px;
   box-shadow: 0px 2px 2px 0px black;
   border-radius: 50%; }
+
+.email:hover {
+  box-shadow: 0px 0px 0px 0px black; }
 
 #middle-left-bottom {
   width: 170px;
