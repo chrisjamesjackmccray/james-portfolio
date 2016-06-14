@@ -54,7 +54,7 @@ a {
   margin-right: 6.7%; }
 
 #resume:hover {
-  transform: rotateX(360deg);
+  transform: rotateY(360deg);
   transition: all 0.5s ease;
   border-color: transparent silver; }
 
@@ -82,7 +82,7 @@ a {
   margin-top: 280px; }
 
 #resume-footer:hover {
-  transform: rotateX(360deg);
+  transform: rotateY(360deg);
   transition: all 0.5s ease;
   border-color: transparent silver; }
 
@@ -705,7 +705,7 @@ input:hover {
   height: 40px;
   transition: all 0.5s ease;
   margin-top: 10px;
-  box-shadow: 1px 1px 1px 0px black;
+  box-shadow: 0px 2px 2px 0px black;
   border-radius: 50%; }
 
 .github {
@@ -716,7 +716,7 @@ input:hover {
   transition: all 0.5s ease;
   margin-left: 17px;
   margin-top: 10.5px;
-  box-shadow: 1px 1px 1px 0px black;
+  box-shadow: 0px 2px 2px 0px black;
   border-radius: 50%; }
 
 .email {
@@ -728,7 +728,7 @@ input:hover {
   transition: all 0.5s ease;
   margin-left: 17px;
   margin-top: 12px;
-  box-shadow: 1px 1px 1px 0px black;
+  box-shadow: 0px 2px 2px 0px black;
   border-radius: 50%; }
 
 #middle-left-bottom {
@@ -750,7 +750,7 @@ input:hover {
   margin-right: 6.7%; }
 
 #resume-middle:hover {
-  transform: rotateX(360deg);
+  transform: rotateY(360deg);
   transition: all 0.5s ease;
   border-color: transparent silver; }
 
