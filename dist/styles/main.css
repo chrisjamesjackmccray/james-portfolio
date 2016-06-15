@@ -3,7 +3,7 @@ a {
 
 .section-one {
   height: 823.5px;
-  background-image: url("../assets/images/gold.jpg");
+  background-image: url("http://digitalresult.com/wp-content/uploads/2016/05/ice-cube-wallpaper-30.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
@@ -12,7 +12,7 @@ a {
   height: 823.5px;
   background-size: cover;
   background-attachment: fixed;
-  background-color: deeppink;
+  background-color: black;
   opacity: .1;
   z-index: 50; }
 
