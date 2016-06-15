@@ -1109,7 +1109,8 @@ input:hover {
   height: 3px;
   background-color: goldenrod;
   position: absolute;
-  box-shadow: 1px 3px 44px 0px black; }
+  box-shadow: 1px 3px 44px 0px black;
+  margin-top: 15px; }
 
 .nav-three-bottom-middle {
   width: 0px;
