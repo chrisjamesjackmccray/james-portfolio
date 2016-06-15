@@ -546,7 +546,11 @@ input:hover {
     float: left;
     margin-left: 0; } }
 
-.tower-image {
+.marvel-database-image {
+  width: 250px;
+  height: 250px; }
+
+.marvel-teams-image {
   width: 250px;
   height: 250px; }
 
@@ -658,7 +662,7 @@ input:hover {
   color: black;
   margin-top: 80px; }
 
-.tower-front {
+.marvel-database-front {
   position: absolute;
   top: 0;
   left: 0;
@@ -668,6 +672,20 @@ input:hover {
   border-radius: 50%;
   transition: all 0.5s ease;
   background-image: url("../assets/images/marvel.png");
+  background-size: cover;
+  margin-top: 18px;
+  background-position: 37% 22%; }
+
+.marvel-teams-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  background-image: url("../assets/images/marvel-teams.png");
   background-size: cover;
   margin-top: 18px;
   background-position: 37% 22%; }
