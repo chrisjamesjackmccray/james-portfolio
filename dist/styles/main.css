@@ -3,7 +3,7 @@ a {
 
 .section-one {
   height: 823.5px;
-  background-image: url("../assets/images/re.jpg");
+  background-image: url("../assets/images/gold.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
@@ -19,7 +19,7 @@ a {
 .section-two {
   height: 3325px;
   margin-top: 0;
-  background-image: url("../assets/images/pinky.jpg");
+  background-image: url("../assets/images/blocks.png");
   background-size: cover;
   background-attachment: fixed; }
 
