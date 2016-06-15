@@ -5,10 +5,12 @@ a {
 
 .section-one {
   height: 823.5px;
-  background-image: url('http://digitalresult.com/wp-content/uploads/2016/05/ice-cube-wallpaper-30.jpeg');
+  background-image: url('../assets/images/cubes.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin: 0 auto;
+
 }
 
 .transparent-cover {
@@ -16,7 +18,7 @@ a {
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
-  opacity: .1;
+  opacity: .2;
   z-index: 50;
 }
 
