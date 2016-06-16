@@ -146,6 +146,13 @@
   // background-color: gray;
 }
 
+@media screen and (min-width: 1350px) {
+  .middle-holder {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+}
+
 
 .middle-head {
   margin-top: 30px;

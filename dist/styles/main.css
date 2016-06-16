@@ -438,6 +438,13 @@ body {
     height: 387px;
     margin-bottom: 1.2%; } }
 
+@media screen and (min-width: 1350px) {
+  .restaurant-rater {
+    max-width: 1350px;
+    margin: 0 auto;
+    height: 387px;
+    margin-bottom: 1.2%; } }
+
 .restaurant-des {
   color: white;
   text-shadow: black 2px 2px 2px;
@@ -828,6 +835,11 @@ input:hover {
   height: calc(100% - 36px);
   margin: 0 auto; }
 
+@media screen and (min-width: 1350px) {
+  .middle-holder {
+    max-width: 1350px;
+    margin: 0 auto; } }
+
 .middle-head {
   margin-top: 30px;
   margin-left: 0;
@@ -1002,6 +1014,11 @@ input:hover {
   width: 90%;
   height: calc(100% - 36px);
   margin: 0 auto; }
+
+@media screen and (min-width: 1350px) {
+  .footer-holder {
+    max-width: 1350px;
+    margin: 0 auto; } }
 
 #footer-left-box {
   margin-top: 35px;
